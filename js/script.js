@@ -26,6 +26,8 @@ $(window).scroll(function () {
         // $('.navbar').toggleClass('navbar-light navbar-dark')
         $('.navbar').removeClass('bg-transparent')
         $('.navbar').addClass('bg-primary')
+        $('.jumbotron .pMuncul').removeClass('pKiri')
+        $('.jumbotron .pMuncul').removeClass('pKanan')
        
 
     }
@@ -46,6 +48,8 @@ $(window).on('load', function () {
     
     $('.pKiri').addClass('pMuncul');
     $('.pKanan').addClass('pMuncul');
+    $('.pAtas').addClass('pMuncul');
+    $('.pBawah').addClass('pMuncul');
     
    
 })

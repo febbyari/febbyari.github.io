@@ -105,6 +105,22 @@ section{
     transform: translate(0,0);
 }
 
+
+.pAtas, .pBawah{
+    opacity: 0;
+    transform: translate(0,-50px);
+    transition: 1s;
+}
+
+.pBawah {
+    transform: translate(0,50px);
+}
+
+.pAtas.pMuncul, .pBawah.pMuncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
 .navbar{
     transition: .4s;
 }
