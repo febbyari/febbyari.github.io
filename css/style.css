@@ -25,6 +25,16 @@ body{
     text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.4);
 }
 
+/* tambahan class */
+
+.h-350{
+    height: 350px;
+    overflow: hidden;
+}
+
+.h-500{
+    height: 500px;
+}
 
 .text-justify{
     text-align: justify;
