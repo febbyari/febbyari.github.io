@@ -17,6 +17,10 @@
     text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.4);
 }
 
+.bg-primary-1{
+    background-color: #251f47;
+}
+
 /* tambahan class */
 
 .h-350{

@@ -25,7 +25,7 @@ $(window).scroll(function () {
     if (wScroll > 0) {
         // $('.navbar').toggleClass('navbar-light navbar-dark')
         $('.navbar').removeClass('bg-transparent')
-        $('.navbar').addClass('bg-primary')
+        $('.navbar').addClass('bg-primary-1')
         $('.jumbotron .pMuncul').removeClass('pKiri')
         $('.jumbotron .pMuncul').removeClass('pKanan')
        
@@ -33,7 +33,7 @@ $(window).scroll(function () {
     }
     if (wScroll < 20) {
         // $('.navbar').toggleClass('bg-transparent')
-        $('.navbar').removeClass('bg-primary')
+        $('.navbar').removeClass('bg-primary-1')
         $('.navbar').addClass('bg-transparent')
 
     }
